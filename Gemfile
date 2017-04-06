@@ -8,4 +8,5 @@ group :development, :test do
 	gem 'rspec-its'
 	gem 'byebug'
 	gem 'simplecov', require: false
+	gem 'rubocop'
 end
