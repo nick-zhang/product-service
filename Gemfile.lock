@@ -13,6 +13,8 @@ GEM
       thread_safe (~> 0.3, >= 0.3.1)
     builder (3.2.3)
     byebug (9.0.6)
+    cane (3.0.0)
+      parallel
     coercible (1.0.0)
       descendants_tracker (~> 0.0.1)
     concurrent-ruby (1.0.5)
@@ -42,6 +44,7 @@ GEM
       tool (~> 0.2)
     mustermann-grape (0.4.0)
       mustermann (= 0.4.0)
+    parallel (1.11.1)
     parser (2.4.0.0)
       ast (~> 2.2)
     powerpack (0.1.1)
@@ -96,6 +99,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
+  cane
   grape
   rack-test
   rake

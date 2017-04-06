@@ -9,4 +9,5 @@ group :development, :test do
 	gem 'byebug'
 	gem 'simplecov', require: false
 	gem 'rubocop'
+	gem 'cane'
 end
