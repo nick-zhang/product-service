@@ -19,7 +19,9 @@
 require 'rspec'
 require 'rack/test'
 require_relative '../lib/init'
+require 'simplecov'
 
+SimpleCov.start 
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest
@@ -105,3 +107,4 @@ RSpec.configure do |config|
   Kernel.srand config.seed
 =end
 end
+SimpleCov.minimum_coverage 100

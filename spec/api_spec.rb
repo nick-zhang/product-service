@@ -22,7 +22,4 @@ describe API do
 	end
 end
 
-def app
-	API
-end
 
